@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    background-image: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716104659/dark-hexagonal-gaming-abstract-background-vector-38017213_g4teht.jpg');
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: hsl(310, 100%, 99%);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 4px solid hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    color: #fffcff; 
+    transition: background-color 0.2s ease;
+}
+
+.cell:hover {
+    background-color: hsl(245, 79%, 39%);
+}
+
+.message-box {
+    margin-bottom: 20px;
+    padding: 10px; 
+    background-color: #fdfdff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.message {
+    font-size: 30px;
+    color: hsl(240, 5%, 4%);
+    margin: 0; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    width: 100%; }
+
+    .buttons button {
+        margin-left: 10px; /* Add some space between buttons */
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #aa138f;
+        color: rgb(255, 255, 255);
+        transition: background-color 0.3s ease;
+    }
+
+    .buttons button:hover {
+        background-color: #3023be;
+    }
+
+    @media (min-width: 768px) {
+        .buttons {
+            margin-right: right; /* Align buttons to the right */
+        }
+    }
