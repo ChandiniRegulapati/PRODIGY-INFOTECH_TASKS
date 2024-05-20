@@ -1,0 +1,473 @@
+body {
+    padding-top: 56px; /* Adjust based on the height of the navbar */
+}
+.navbar {
+    background-color: #396ef3; /* Light background color for the navbar */
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover {
+    color: #030c14 !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important; 
+}
+.nav-link {
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.nav-link i {
+    margin-right: 0.5rem;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Set the font color to white */
+}
+section {
+    padding: 60px 0; /* Space around sections */
+}
+
+
+.home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716210168/professional-background-gpyiwar9suq43xgr_skuy3b.jpg') no-repeat center center/cover;
+    color: hsl(0, 100%, 99%);
+    text-align: center;
+    padding: 0 20px;
+}
+
+.home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.home-content {
+    z-index: 1;
+}
+
+.home-image {
+    border-radius: 100%; 
+    width: 240px; 
+    height: 240px;
+    overflow: hidden; 
+}
+.image-content img {
+    border: 7px solid hsl(0, 0%, 0%); 
+    border-radius: 50%; 
+    box-shadow: 0 0 15px #1f71e2f3; 
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid #fffafa;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+.home h2{
+    color: #007bff;
+}
+
+.home p {
+    text-align: center;
+    color: #fff5f5;
+    font-style: normal;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+    animation: fadeIn 3s;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.btn-custom {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.btn-connect {
+    background-color: #28a745 !important; /* Different color for the connect button */
+}
+
+.btn-connect:hover {
+    background-color: #218838 !important; /* Hover color for the connect button */
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: hsl(240, 100%, 99%); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.about {
+    background-color: #f8f9fa;
+    background-image: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716211098/02fc6522b7054d939da525352775347d_zneaxf.webp');
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    color: hsl(0, 100%, 98%);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-intro {
+    color: hsl(0, 100%, 99%);
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 0 auto 40px;
+}
+
+.about-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-item {
+    flex-basis: calc(33.333% - 30px);
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 1px solid rgb(254, 254, 255);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.about-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px #9b1276;
+}
+
+.about-item h3 {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: hsl(0, 100%, 99%);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Styles for Skills Section */
+
+.skills {
+    background-image:url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716210168/professional-background-gpyiwar9suq43xgr_skuy3b.jpg') ;
+    padding: 100px 100px; /* Add padding */
+}
+
+.skills h2 {
+    text-align: center; 
+    color: hwb(0 98% 0%); 
+    font-size: 36px; 
+    margin-bottom: 30px; 
+}
+
+.skills p {
+    text-align: center; 
+    margin-bottom: 50px; 
+    color: hsl(0, 0%, 100%); 
+    font-size: 18px; 
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.skill-category {
+    width: calc(25% - 20px); 
+    margin: 0 10px 40px; 
+    padding: 20px;
+    background-color: hsl(220, 100%, 99%); 
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 6px rgb(26, 60, 235); /* Add box shadow */
+    transition: transform 0.3s ease; /* Add transition */
+}
+
+.skill-category:hover {
+    transform: translateY(-10px); 
+}
+
+.skill-category h3 {
+    color: #007bff; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+.skill-category ul {
+    padding-left: 0;
+}
+
+.skill-category li {
+    margin-bottom: 8px; 
+    color: #000000; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.skill-logo {
+    margin-right: 10px; 
+}
+
+
+
+
+.projects {
+    background-image: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716207240/1226da8f422d416a9cef395f982d9a08_a5yxue.webp');
+    padding: 60px 0;
+}
+.projects .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: hsl(0, 100%, 99%);
+}
+.projects .section-description {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    color: hsl(0, 100%, 98%);
+}
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background: hsl(252, 100%, 99%);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.project-image {
+    flex: 1;
+    text-align: center;
+}
+.project-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.project-info {
+    flex: 2;
+    padding: 20px;
+}
+.project-info h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+.project-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for Contact Section */
+
+.contact {
+    background: linear-gradient(45deg, #2942ff, #0a0650);
+    padding: 80px 0; /* Padding */
+}
+
+.contact .container {
+    max-width: 800px; /* Limit container width */
+    margin: 0 auto; /* Center container */
+}
+
+.contact .section-title {
+    text-align: center; /* Center-align section title */
+    color: #fff6f6; /* Title color */
+    font-size: 36px; /* Title font size */
+    margin-bottom: 30px; /* Margin bottom */
+}
+
+.contact .section-description {
+    text-align: center; /* Center-align section description */
+    color: hwb(0 100% 0%); /* Description color */
+    font-size: 18px; /* Description font size */
+    margin-bottom: 50px; /* Margin bottom */
+}
+
+.contact-content {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.contact-form {
+    width: 80%; /* Form width */
+}
+
+.contact-form form {
+    background: linear-gradient(45deg, hsl(0, 0%, 1%), #3804a0);
+    padding: 40px; /* Padding */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px; /* Margin bottom */
+}
+
+.contact-form label {
+    color: hsl(0, 100%, 99%); /* Label color */
+    font-size: 16px; /* Label font size */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding */
+    border: 1px solid #2655d5; /* Border */
+    border-radius: 5px; /* Border radius */
+}
+
+.contact-form textarea {
+    height: 150px; /* Textarea height */
+}
+
+.contact-form button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Cursor pointer */
+    transition: background-color 0.3s ease; /* Transition */
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Hover background color */
+}
+
+
+.social-media {
+    text-align: center; /* Center-align social media */
+    margin-top: 30px; /* Margin top */
+}
+
+.social-media h3 {
+    color: hsl(0, 100%, 99%); /* Title color */
+    font-size: 24px; /* Title font size */
+    margin-bottom: 20px; /* Margin bottom */
+}
+
+.social-media-list {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+}
+
+.social-media-list li {
+    display: inline-block; /* Display inline */
+    margin-right: 10px; /* Margin right */
+}
+
+.social-media-list li:last-child {
+    margin-right: 0; /* Remove margin right for last item */
+}
+
+.social-media-list a {
+    color: #000000; 
+    font-size: 24px; 
+}
+
+.social-media-list a:hover {
+    color: hwb(213 92% 0%); 
+}
+
+/* Footer CSS */
+.footer {
+    background-color:  #007bff; 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.footer p {
+    margin-bottom: 0; 
+}
+
+.footer a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+}
+
+
