@@ -14,5 +14,6 @@ This repository contains my solutions to the tasks assigned during the web devel
 ![image](https://github.com/ChandiniRegulapati/PRODIGY-INFOTECH_TASKS/assets/159464185/ac612085-399b-47f9-a0d2-618c84c1521e)
 
 ### Task 4 Personal Portfolio website
+![Screenshot 2024-05-20 210430](https://github.com/ChandiniRegulapati/PRODIGY-INFOTECH_TASKS/assets/159464185/32a5369b-b780-41d9-ad7e-0fc8e5636501)
 
 
